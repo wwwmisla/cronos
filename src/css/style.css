@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wgth@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    background: #ceebd1;
+    font-family: 'Exo', sans-serif;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #b6deb9;
+    margin-top: 50px;
+    padding: 54px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.view {
+    background: #b1ccb4;
+    width: 252px;
+    height: 252px;
+    border: 8px solid #aebfaf;
+    padding: 24px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.view span {
+    font-size: 2rem;
+    font-weight: medium;
+}
+
+.reset {
+    background: #a6ada7;
+    color: #6f737e;
+    border: none;
+    padding: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.reset:hover {
+    background: #c1c0ae;
+}
+
+.start {
+    background: #a6ada7;
+    color: #6f737e;
+    border: none;
+    padding: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.start:hover {
+    background: #c1c0ae;
+}
+
+.pause {
+    background: #a6ada7;
+    color: #6f737e;
+    border: none;
+    padding: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    display: none;
+}
+
+.pause:hover {
+    background: #c1c0ae;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-lateral {
+	position: fixed;
+	width: 80px;
+	top: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.menu-lateral ul {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.menu-lateral .icone {
+	width: 30px;
+	filter: invert(1);
+	transition: 0.3s ease-in-out;
+}
+
+.menu-lateral .icone:hover {
+	transform: scale(1.2);
+}
+
+.ass {
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: oblique;
+    color: #a6ada7;
+    margin-top: 20px;
+
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
